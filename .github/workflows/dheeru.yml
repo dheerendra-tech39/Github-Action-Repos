@@ -13,7 +13,7 @@ jobs:
       - name: Run a one-line script
         run: echo "Hello, world!"
 
-      - name: Run a multi-line script
-        run: |
-          echo "Add other actions to build,"
-          echo "test, and deploy your project."
+      - name: Azure login
+        run: az login --service-principal --username fa8e1e63-7dc8-47e0-bde3-51d8965a1e45 --password ALU8Q~PUJHHPC~aniOO9eWnAFfyw-QM2rekXXbDx --tenant c19495c3-7313-414d-bf97-f60a4fbc2c0d
+
+      
